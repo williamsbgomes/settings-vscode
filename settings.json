@@ -1,0 +1,327 @@
+{
+  "symbols.hidesExplorerArrows": false,
+  "editor.fontFamily": "JetBrainsMono Nerd Font Mono, MesloLGL Nerd Font Mono, Inter, Fira Code, monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "editor.rulers": [80, 120],
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.renderLineHighlight": "gutter",
+  "editor.fontLigatures": true,
+  "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
+  "editor.semanticHighlighting.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.activityBar.location": "default",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.horizontal": "auto",
+  "editor.scrollbar.vertical": "auto",
+  "code-runner.ignoreSelection": true,
+  "workbench.statusBar.visible": true,
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": { "x": 11, "y": 10 },
+    "frame": false
+  },
+  "apc.header": { "height": 36 },
+  "apc.listRow": { "height": 24 },
+  "apc.font.family": "Inter",
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none",
+    ".editor-actions": "display: none",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 0 8px",
+    ".pane-body": "padding: 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important;",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+  },
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "terminal.integrated.fontFamily": "MesloLGL Nerd Font Mono",
+  "terminal.integrated.fontSize": 12,
+  "workbench.editorAssociations": { "*.go": "default" },
+  "go.toolsManagement.autoUpdate": true,
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "editorconfig.generateAuto": true,
+  "[java]": {
+    "editor.rulers": [80, 120],
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.defaultFormatter": "Oracle.oracle-java",
+    "editor.codeActionsOnSave": { "source.organizeImports": "explicit" }
+  },
+  "[javascriptreact]": {
+    "editor.inlineSuggest.suppressSuggestions": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": false,
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.biome": "explicit"
+    }
+  },
+  "java.project.sourcePaths": [
+    "src/main/java",
+    "src/test/java",
+    "target/generated-sources/annotations",
+    "target/classes",
+    "target/generated-sources/protobuf/java",
+    "target/generated-sources/protobuf/grpc-java"
+  ],
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable",
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.completion.importOrder": ["java", "javax", "org", "com"],
+  "[yaml]": { "editor.defaultFormatter": "redhat.vscode-yaml" },
+  "code-runner.runInTerminal": true,
+  "python.defaultInterpreterPath": "python",
+  "python.analysis.autoSearchPaths": false,
+  "[python]": { "editor.defaultFormatter": "ms-python.autopep8" },
+  "github.copilot.enable": { "**": true },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "jdk.java.onSave.organizeImports": false,
+  "git.autofetch": true,
+  "java.completion.chain.enabled": true,
+  "java.referencesCodeLens.enabled": true,
+  "java.implementationsCodeLens.enabled": true,
+  "git.confirmSync": false,
+  "sonarlint.rules": {
+    "java:S107": { "level": "off" },
+    "go:S100": { "level": "off" }
+  },
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "jdk.java.imports.countForUsingStarImport": 4,
+  "jdk.java.imports.countForUsingStaticStarImport": 4,
+  "github.copilot.preferredAccount": "barricca",
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.biome": "explicit"
+    }
+  },
+  "javascript.suggest.completeFunctionCalls": true,
+  "security.workspace.trust.enabled": false,
+  "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+  "[markdown]": { "editor.defaultFormatter": "DavidAnson.vscode-markdownlint" },
+  "[typescriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "biomejs.biome",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.biome": "explicit"
+    }
+  },
+  "[typescript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.biome": "explicit"
+    }
+  },
+  "java.import.gradle.user.home": "/Users/williams.barriquero/.sdkman/candidates/java/current",
+  "vs-kubernetes": {
+    "vscode-kubernetes.kubectl-path-linux": "/home/williams-barriquero/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path-linux": "/home/williams-barriquero/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vscode-kubernetes.helm-path-linux": "/home/williams-barriquero/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm"
+  },
+  "vscode-edge-devtools.webhint": false,
+  "[xml]": { "editor.defaultFormatter": "redhat.vscode-xml" },
+  "cSpell.userWords": [
+    "Busca",
+    "critério",
+    "dinâmica",
+    "pelo",
+    "runtimes",
+    "unidalv",
+    "willeei"
+  ],
+  "diffEditor.ignoreTrimWhitespace": true,
+  "netbeans.javaSupport.enabled": false,
+  "git.suggestSmartCommit": false,
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "sonarlint.connectedMode.connections.sonarqube": [
+    {
+      "serverUrl": "https://sonarqube.acc.rpe.tech",
+      "connectionId": "https-sonarqube-acc-rpe-tech-services"
+    }
+  ],
+  "sonarlint.output.showVerboseLogs": true,
+  "terminal.external.osxExec": "open -a Warp",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "java.jdt.ls.java.home": "/Users/williams.barriquero/.sdkman/candidates/java/current",
+  "java.import.gradle.java.home": "/Users/williams.barriquero/.sdkman/candidates/java/current",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-21",
+      "path": "/Users/williams.barriquero/.sdkman/candidates/java/21.0.7-tem",
+      "default": true
+    }
+  ],
+  "terminal.integrated.env.linux": {
+    "JAVA_HOME": "/home/williams-barriquero/.sdkman/candidates/java/current",
+    "PATH": "/home/williams-barriquero/.sdkman/candidates/java/current/bin:${env:PATH}"
+  },
+  "maven.terminal.customEnv": [
+    {
+      "environmentVariable": "JAVA_HOME",
+      "value": "/home/williams-barriquero/.sdkman/candidates/java/current"
+    }
+  ],
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4-turbo",
+  "sonarlint.pathToNodeExecutable": "/home/williams-barriquero/.nvm/versions/node/v22.14.0/bin/node",
+  "explorer.confirmPasteNative": false,
+  "docker.extension.enableComposeLanguageServer": false,
+  "chat.instructionsFilesLocations": {
+    ".github/instructions": true,
+    "/var/folders/z7/5fvr4wv12777j1m5bpxmmt180000gn/T/postman-http-request-post-response.instructions.md": true,
+    "/var/folders/z7/5fvr4wv12777j1m5bpxmmt180000gn/T/postman-http-request-pre-request.instructions.md": true,
+    "/tmp/postman-http-request-post-response.instructions.md": true,
+    "/tmp/postman-http-request-pre-request.instructions.md": true,
+    "/var/folders/z7/5fvr4wv12777j1m5bpxmmt180000gn/T/postman-collections-post-response.instructions.md": true,
+    "/var/folders/z7/5fvr4wv12777j1m5bpxmmt180000gn/T/postman-collections-pre-request.instructions.md": true,
+    "/var/folders/z7/5fvr4wv12777j1m5bpxmmt180000gn/T/postman-folder-post-response.instructions.md": true,
+    "/var/folders/z7/5fvr4wv12777j1m5bpxmmt180000gn/T/postman-folder-pre-request.instructions.md": true,
+    "/tmp/postman-collections-post-response.instructions.md": true,
+    "/tmp/postman-collections-pre-request.instructions.md": true,
+    "/tmp/postman-folder-post-response.instructions.md": true,
+    "/tmp/postman-folder-pre-request.instructions.md": true,
+    "/var/folders/2s/fmxmn41d4yv6r69t74ld7ylc0000gn/T/postman-collections-post-response.instructions.md": true,
+    "/var/folders/2s/fmxmn41d4yv6r69t74ld7ylc0000gn/T/postman-collections-pre-request.instructions.md": true,
+    "/var/folders/2s/fmxmn41d4yv6r69t74ld7ylc0000gn/T/postman-folder-post-response.instructions.md": true,
+    "/var/folders/2s/fmxmn41d4yv6r69t74ld7ylc0000gn/T/postman-folder-pre-request.instructions.md": true,
+    "/var/folders/2s/fmxmn41d4yv6r69t74ld7ylc0000gn/T/postman-http-request-post-response.instructions.md": true,
+    "/var/folders/2s/fmxmn41d4yv6r69t74ld7ylc0000gn/T/postman-http-request-pre-request.instructions.md": true
+  },
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "explicit"
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.suggest.autoImports": true,
+  "javascript.suggest.autoImports": true,
+  "docker.extension.dockerEngineAvailabilityPrompt": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "redhat.telemetry.enabled": true,
+  "tailwindCSS.classFunctions": ["cva", "cx"],
+  "biome.suggestInstallingGlobally": false,
+  "[go]": { "editor.defaultFormatter": "golang.go" },
+  "makefile.configureOnOpen": true,
+  "diffEditor.codeLens": true,
+  "tailwindCSS.includeLanguages": {
+    "typescript": "html",
+    "typescriptreact": "html"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["tv\\((.|[\r\n])*?\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    ["cn\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"],
+    "tw`([^`]*)",
+    "tw='([^']*)",
+    "tw=\"([^\"]*)",
+    "tw={\"([^\"]*)",
+    ["twMerge\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ],
+  "tailwindCSS.classAttributes": ["class", "className", "classList", "ngClass"],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+  "workbench.colorCustomizations": {
+    "[Vira*]": {
+      "toolbar.activeBackground": "#C6FF0026",
+      "button.background": "#C6FF00",
+      "button.hoverBackground": "#C6FF00cc",
+      "extensionButton.separator": "#C6FF0033",
+      "extensionButton.background": "#C6FF0014",
+      "extensionButton.foreground": "#C6FF00",
+      "extensionButton.hoverBackground": "#C6FF0033",
+      "extensionButton.prominentForeground": "#C6FF00",
+      "extensionButton.prominentBackground": "#C6FF0014",
+      "extensionButton.prominentHoverBackground": "#C6FF0033",
+      "activityBarBadge.background": "#C6FF00",
+      "activityBar.activeBorder": "#C6FF00",
+      "activityBarTop.activeBorder": "#C6FF00",
+      "list.inactiveSelectionIconForeground": "#C6FF00",
+      "list.activeSelectionForeground": "#C6FF00",
+      "list.inactiveSelectionForeground": "#C6FF00",
+      "list.highlightForeground": "#C6FF00",
+      "sash.hoverBorder": "#C6FF0080",
+      "list.activeSelectionIconForeground": "#C6FF00",
+      "scrollbarSlider.activeBackground": "#C6FF0080",
+      "editorSuggestWidget.highlightForeground": "#C6FF00",
+      "textLink.foreground": "#C6FF00",
+      "progressBar.background": "#C6FF00",
+      "pickerGroup.foreground": "#C6FF00",
+      "tab.activeBorder": "#C6FF0000",
+      "tab.activeBorderTop": "#C6FF00",
+      "tab.unfocusedActiveBorder": "#C6FF0000",
+      "tab.unfocusedActiveBorderTop": "#C6FF00",
+      "tab.activeModifiedBorder": "#C6FF00",
+      "notificationLink.foreground": "#C6FF00",
+      "editorWidget.resizeBorder": "#C6FF00",
+      "editorWidget.border": "#C6FF00",
+      "settings.modifiedItemIndicator": "#C6FF00",
+      "panelTitle.activeBorder": "#C6FF00",
+      "breadcrumb.activeSelectionForeground": "#C6FF00",
+      "menu.selectionForeground": "#C6FF00",
+      "menubar.selectionForeground": "#C6FF00",
+      "editor.findMatchBorder": "#C6FF00",
+      "selection.background": "#C6FF0040",
+      "statusBarItem.remoteBackground": "#C6FF0014",
+      "statusBarItem.remoteHoverBackground": "#C6FF00",
+      "statusBarItem.remoteForeground": "#C6FF00",
+      "notebook.inactiveFocusedCellBorder": "#C6FF0080",
+      "commandCenter.activeBorder": "#C6FF0080",
+      "chat.slashCommandForeground": "#C6FF00",
+      "chat.avatarForeground": "#C6FF00",
+      "activityBarBadge.foreground": "#000000",
+      "button.foreground": "#000000",
+      "statusBarItem.remoteHoverForeground": "#000000",
+      "titleBar.border": "#ffffff0f",
+      "statusBar.border": "#ffffff0f",
+      "sideBar.border": "#ffffff0f",
+      "sideBarSectionHeader.border": "#ffffff0f",
+      "panel.border": "#ffffff0f",
+      "activityBar.border": "#ffffff0f",
+      "sideBarActivityBarTop.border": "#ffffff0f",
+      "sideBarStickyScroll.border": "#ffffff14",
+      "statusBar.debuggingBackground": "#C6FF0033",
+      "statusBar.debuggingForeground": "#C6FF00"
+    }
+  },
+  "viraTheme.accent": "Acid Lime",
+  "viraTheme.showBorders": true,
+  "viraTheme.hidesExplorerArrows": false,
+  "viraTheme.useOutlinedIcons": true,
+  "viraTheme.useTopTabIndicator": true,
+  "[spring-boot-properties-yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "sonarlint.focusOnNewCode": true,
+  "geminicodeassist.displayInlineContextHint": false,
+  "workbench.colorTheme": "Oscura Dusk",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "symbols"
+}
